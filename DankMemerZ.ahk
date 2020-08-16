@@ -8,7 +8,7 @@ MsgBox, [Warn] If your account gets banned by Dank Memer, it will not be my faul
 InputBox, OutputVar, DankMemer Auto Farm - WARN, [Warn] Last warning! Please Type "Yes" to continue.
 if (OutputVar = "Yes")
 {
-    MsgBox, [Info] You have now agreed to the policy to use this software...
+    MsgBox, [Info] You have now agreed to the policy to use this software, now click OK to start! Well, actually after click OK you will have about 7s to move your cursor to the Discord chat box.
     Goto, Start 
 }
 else
@@ -17,6 +17,7 @@ else
     Goto, Exit
 }
 Start:
+Sleep 10000
 Send pls search {Enter}
 Sleep, 100
 Send grass {Enter}
