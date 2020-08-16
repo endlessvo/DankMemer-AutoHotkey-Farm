@@ -9,3 +9,6 @@ First release, spam basic commands.
 
 v1.1
 Now with warn Message boxes before you start doing anything ;)
+
+v1.3
+Now can spam for uliminated time! And you can just quit the program by pressing Q
