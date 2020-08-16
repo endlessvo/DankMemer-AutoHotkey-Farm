@@ -7,5 +7,5 @@ This will make you rich on Dank Memer. Download the compiled version at the rele
 v1.0
 First release, spam basic commands. 
 
-v2.0
+v1.1
 Now with warn Message boxes before you start doing anything ;)
