@@ -15,16 +15,18 @@ else
     Goto, Exit
 }
 Start:
-Sleep 10000
-Send pls search {Enter}
+Sleep, 10000
+Send, pls search {Enter}
 Sleep, 100
-Send grass {Enter}
+Send, grass {Enter}
 Sleep, 100
-Send pls beg {Enter}
+Send, pls beg {Enter}
 Sleep, 300
-Send pls hunt {Enter}
+Send, pls hunt {Enter}
+Send, **SKIP**
 Sleep, 300
-Send pls fish {Enter}
+Send, pls fish {Enter}
+Send, **SKIP**
 Sleep, 60000
 Goto, Start
 Exit:
